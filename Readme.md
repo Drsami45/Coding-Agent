@@ -20,12 +20,12 @@ coding-agent/
 ├── app.py                     # Streamlit UI — the entry point
 ├── workspace/                  # sandbox — the agent's files live here
 └── src/
-    └── coding_agent/
-        ├── __init__.py
-        ├── config.py           # env vars, workspace path, model discovery
-        ├── tools.py            # sandboxed file + code-execution tools
-        ├── prompts.py          # system prompt
-        └── agent.py            # builds the LangGraph agent
+     |
+     ├── __init__.py
+     ├── config.py           # env vars, workspace path, model discovery
+     ├── tools.py            # sandboxed file + code-execution tools
+     ├── prompts.py          # system prompt
+     └── agent.py            # builds the LangGraph agent
 ```
 
 ## 1. Prerequisites
